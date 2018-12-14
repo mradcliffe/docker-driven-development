@@ -1,0 +1,20 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.actions--inline {
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0 .5rem;
+}
+
+.form-group {
+
+  label,
+  input {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  label {
+    margin: 0 .25rem;
+  }
+}

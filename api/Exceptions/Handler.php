@@ -1,0 +1,10 @@
+<?php
+
+namespace Radcliffe\DockerExample\Exceptions;
+
+use Exception;
+use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+
+class Handler extends ExceptionHandler
+{
+}

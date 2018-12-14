@@ -1,0 +1,11 @@
+{
+  "phpcs.standard": "PSR2",
+  "editor.tabSize": 4,
+  "editor.detectIndentation": true,
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[scss]": {
+    "editor.tabSize": 2
+  }
+}
