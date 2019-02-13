@@ -17,7 +17,7 @@ services:
     build: './php'
     environment:
       # Change this to your actual local IP Address.
-      XDEBUG_REMOTE_HOST: 10.12.3.38
+      XDEBUG_REMOTE_HOST: host.docker.internal
     volumes:
       - web:/var/www
     labels:
