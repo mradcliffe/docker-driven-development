@@ -6,6 +6,8 @@ package-lock.json
 /vendor/
 /webroot/css/*.css
 /webroot/js/*.js
+/webroot/**/*.map
 /storage/framework/
+/storage/logs/*.log
 
 /.vscode/launch.json
