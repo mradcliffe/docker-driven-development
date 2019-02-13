@@ -4,11 +4,11 @@ See [slides](http://softpixel.com/~mradcliffe/#!/articles/2018/10/docker-driven-
 
 This is an example of configuring your own docker development environment from scratch.
 
-## Requirements
+## Minimum Requirements
 
 * Docker 18.06ce running
    * Windows 10+: Docker for Windows
-   * MacOS: Docker for Mac
+   * MacOS Sierra: Docker for Mac
    * Linux: docker, docker-compose from your distro. or binaries compiled yourself.
 
 ## Getting Started
@@ -18,7 +18,7 @@ This is an example of configuring your own docker development environment from s
 2. Clone repository: `git clone https://github.com/mradcliffe/docker-driven-development.git`
 3. Change directory into this repository: `cd docker-driven-development`
 4. Install front-end dependencies: `npm install`
-5. Install back-end dependencies: `mkdir database/{seeds,factories} && composer install`
+5. Install back-end dependencies: `mkdir database/{seeds,factories} && mkdir -p storage/framework/{sessions,views,cache} && composer install`
 6. Start: `docker-compose up -d`.
 7. Run: `docker exec docker-driven-development_web_1 ./artisan migrate:refresh`
 8. Run: `npm start`
