@@ -4,6 +4,8 @@ See [slides](http://softpixel.com/~mradcliffe/#!/articles/2018/10/docker-driven-
 
 This is an example of configuring your own docker development environment from scratch.
 
+> The code base here should **not** be used in production and may contain security vulnerabilities. Much of the laravel application is meant to bypass authentication and allow anonymous authorization to services for the purposes of the presentation.
+
 ## Minimum Requirements
 
 * Docker 18.06ce running
